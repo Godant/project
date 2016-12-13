@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css" />
+		<link rel="stylesheet"  type="text/css" href="../css/jquery.idcode.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.3.js"></script>
+		
+		<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/register.js" ></script>
+
+		<script type="text/javascript" src="../js/jquery.idcode.js"></script>
+	</head>
+
+	<body>
+		<div id="wrap-topimg">
+			<div class="topimg">
+				<a href=""><img src="../images/topperimg.jpg" /></a>
+			</div>
+		</div>
+		<div id="wrap-logo">
+			<div class="logo">
+				<a href=""><img src="../images/logo.jpg" /></a>
+				<span>欢迎注册</span>
+				<em>已注册，请<a href="login.html">登录&gt;</a></em>
+			</div>
+		</div>
+		<div class="nc-login-layout">
+			<div class="zcTitle">
+				<ul>
+					<li class="current">个人用户注册</li>
+				</ul>
+			</div>
+			<div class="nc-login">
+				<div class="nc-login-content">
+					<form id="register_form" method="post" action="index.php?act=login&amp;op=usersave">
+						<input type="hidden" name="formhash" value="SbexH9bsZgZIJBLqU_Wn9WRuGrY-SdB">
+						<div class="cBox">
+							<input placeholder="手机号码" type="text" id="user_name" name="user_name" class="text tip input-40" title="请输入11位手机号">
+							<i class="username"></i>
+
+						</div>
+						<div class="cBox">
+							<input placeholder="设置密码" type="password" id="password" name="password" class="text tip input-40" title="6-20位字符，可由英文、数字及标点符号组成">
+							<i></i>
+
+						</div>
+						<div class="short">
+							<input type="text" id ="Txtidcode" class ="txtVerification " placeholder="填写验证码"><span id="idcode"></span>
+						    
+						</div>
+						<div class="short">
+							<input placeholder="短信验证码" type="text" id="seccode" maxlength="6" name="seccode" class="text tip cap w148" title="请输入短信验证码">
+							<i></i>
+							<input type="button" class="reget" id="reget" value="获取短信验证码" onclick="sendMessage()">
+
+						</div>
+						<div class="cBox">
+							<input placeholder="好友推荐码(非必填)" type="text" id="tuijianma" name="tuijianma" class="text tip input-40" title="请输入好友推荐码">
+						</div>
+						<div>
+							<input name="agree" type="checkbox" class="vm ml5" id="clause" value="1" checked="checked">
+							<span for="clause" class="ml5">阅读并同意<a href="http://www.mmloo.com/shop/document-agreement.html" target="_blank" class="agreement" title="阅读并同意">服务协议</a></span>
+
+							<input type="button" id="Submit" value="" class="submit" title="立即注册">
+						</div>
+
+						<input type="hidden" value="" name="invi_code">
+						<input type="hidden" value="http://www.mmloo.com/shop/cate-1-0-0-0-0-0-0-0.html" name="ref_url">
+						<input name="nchash" type="hidden" value="b825ff84">
+					</form>
+				</div>
+			</div>
+			<div class="nc-login"></div>
+			
+		</div>
+		<div class="footer2">
+				<p class="pp1">
+					<a href="#">电脑节</a>
+					<a href="#">年货节</a>
+					<a href="#">批发商城</a>
+					<a href="#">合作及洽谈</a>
+					<a href="#">联系我们</a>
+					<a href="#">关于米米乐商城</a>
+					<a href="#">商家登录</a>
+					<a href="#">开店协议</a>
+					<a href="#">商家入驻</a>
+					<a href="#">手机版</a>
+					<a href="#">友情链接</a>
+					<a href="#" class="acolor">招聘英才</a>
+					<a href="#">米商</a>
+					<a href="#">8.8包邮</a>
+					<a href="#" class="last">返回顶部</a>
+				</p>
+				<p class="pp2">© 2016 米米乐商城 www.mmloo.com 版权所有 蜀ICP备06015925号-1</p>
+				<p class="pp3"><img src="../images/footerimg.jpg" /></p>
+			</div>
+	</body>
+
+</html>

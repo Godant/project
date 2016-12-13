@@ -1,0 +1,88 @@
+#wrap-pro-main .pro-main2{width: 1200px; height:640px;margin: 0 auto; padding-bottom: 8px; margin-bottom: 60px; background: white;}
+#wrap-pro-main .pro-main2 .headerbar{overflow: hidden;}
+#wrap-pro-main .pro-main2 h2{float:left;font-size: 28px; font-weight: 900; font-family: "微软雅黑" ;}
+#wrap-pro-main .pro-main2  span a{float:right; padding-top:14px ; font-size: 14px; color: #999999;}
+#wrap-pro-main .pro-main2 .selectpro ul{ float: right; margin-right: 101px;}
+#wrap-pro-main .pro-main2 .selectpro ul li { float: left; }
+#wrap-pro-main .pro-main2 .selectpro ul li a{display:block;font-size:14px;padding: 14px 11px;}
+#wrap-pro-main .pro-main2 .selectpro ul li .first{background:#008000; color: white;}
+#wrap-pro-main .pro-maincenter2 {width:1200px;border-top: 2px solid #008000; overflow: hidden;}
+#wrap-pro-main .pro-main2 .pro-mainleft2{width: 225px; float: left;}
+.pro-main2 .pro-mainleft2 .mainleft-1-2{width: 225px; height: 443px; border: 1px solid #dddddd;background: url(../images/2F.png) left top no-repeat; }
+.pro-main2 .pro-mainleft2 .mainleft-1-2 ul{ float: left; margin-top: 20px;margin-left: 10px; }
+.pro-main2 .pro-mainleft2 .mainleft-1-2 ul li a {display:inline-block;margin-left: 30px; margin-bottom: 10px;}
+.pro-main2 .pro-mainleft2 .mainleft-1-2 ul li a:hover{color: red;}
+.pro-main2 .pro-mainleft2 .mainleft-1-2 img{width: 200px; margin-left: 10px;margin-top: 20px;}
+.pro-main2 .pro-mainleft2 .left2-show-2{width: 225px; height: 146px; border: 1px solid #dddddd;border-top: none;border-right:none;position: relative;overflow: hidden;}
+.pro-main2 .pro-mainleft2 .left2-show-2 ul{margin-left: 50px;position: absolute;top:0px; }
+.pro-main2 .pro-mainleft2 .left2-show-2 ul li {border-bottom: 2px solid #dfdfdf; width: 120px; padding-top: 5px;}
+.pro-main2 .pro-mainleft2 .left2-show-2 ul li img{height: 40px;}
+.pro-main2 .pro-mainleft2 .left2-show-2 .sp1,.sp2{position:absolute;display: block; width: 20px; height: 40px;font-size: 20px; background: black; opacity: 0.3;color: white; text-align: center; line-height: 40px;}
+.pro-main2 .pro-mainleft2 .left2-show-2 .sp1{top:60px;left: 20px;}
+.pro-main2 .pro-mainleft2 .left2-show-2 .sp2{top: 60px; right: 20px;}
+
+.pro-main2 .pro-mainright2-1{width: 974px; float: left; height: 590px;display: block;}
+.pro-main2 .pro-mainright2-1 .group-list-2{float: left; height: 360px;  width: 974px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 li{float: left;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2{width: 391px; height: 360px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup{height: 173px; float: left; overflow: hidden; width: 389px; border: 1px solid #dddddd;position: relative;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup .imgbox{z-index:90;float: left;position: absolute;top: 0; left: 0;width:1945px; height: 174px; }
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup .imgbox img{width: 389px; float: left;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup span{z-index:100;display: inline-block; width: 30px; height: 60px; font-size: 20px; text-align: center; background: black; opacity: 0.3;position: absolute;color: white;line-height: 60px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup .spp1{top:45px;left: 20px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showup .spp2{top:45px;right: 20px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showdown{height: 183px; float: left; }
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showdown img{float: left; border: 1px solid #dddddd; border-top: none ;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list1-2 .showdown .last{border-left: none ;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list2-2 .showright1{float: left;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list2-2 .showright1 img{border-bottom: 1px solid #dddddd;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list3-2 .showright2{float:left;width:194px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list3-2 .showright2 img{float: left; border: 1px solid #dddddd;height: 178.5px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list3-2 .showright2 .last{border-top:none;}
+
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2{width: 195px; height: 360px;position: relative; overflow: hidden; background: ;} 
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 .showright3{height: 30px; margin: 0 10px; border-bottom: 1px solid #dddddd;z-index: 99; }
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2  h3{position: absolute;top: 20px;left:37px;background: white;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 ul{margin-top: 20px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 ul li{height: 30px; overflow: hidden;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 ul .first{height:170px ;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 em{font-style: normal; font-size: 14px;display:inline-block; margin-left: 10px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 .one,.two,.three{background: #4896c7;display: inline-block; border-radius: 50%; width: 20px; height: 20px;text-align: center;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 .two{background: #56a7dc;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 .three{background: #85c7ea;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 span{font-size: 12px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 img{width:50; height: 100px;margin-left: 3px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 dt{float: left;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 dd{margin-top: 20px;}
+.pro-main2 .pro-mainright2-1 .group-list-2 .list4-2 a:hover{color: red;}
+
+.pro-main2 .pro-mainright2-2{width: 974px; float: left; height: 590px; display: none;}
+.pro-main2 .pro-mainright2-2 dl{float: left; width: 170px;margin: 15px 0px; padding:0 11px; border-right: 1px solid #dddddd;}
+.pro-main2 .pro-mainright2-2 dl dt{position: relative;}
+.pro-main2 .pro-mainright2-2 dl dt img{width: 170px; height: 200px;position: absolute;top:10px;}
+.pro-main2 .pro-mainright2-2 dl dd {font-size: 12px;text-align: center;padding-top:210px ;}
+.pro-main2 .pro-mainright2-2 dl dd span{display:inline-block;color: red;font-size: 18px; padding-top:10px;}
+
+.pro-main2 .pro-mainright3-2{width: 974px; float: left; height: 590px;display: none;}
+.pro-main2 .pro-mainright3-2 dl{float: left; width: 170px;margin: 15px 0px; padding:0 11px; border-right: 1px solid #dddddd;}
+.pro-main2 .pro-mainright3-2 dl dt{position: relative;}
+.pro-main2 .pro-mainright3-2 dl dt img{width: 170px; height: 200px;position: absolute;top:10px;}
+.pro-main2 .pro-mainright3-2 dl dd {font-size: 12px;text-align: center;padding-top:210px }
+.pro-main2 .pro-mainright3-2 dl dd span{display:inline-block;color: red;font-size: 18px; padding-top:10px;}
+
+.pro-main2 .pro-mainright4-2{width: 974px; float: left; height: 590px; display: none;}
+.pro-main2 .pro-mainright4-2 dl{float: left; width: 170px;margin: 15px 0px; padding:0 11px; border-right: 1px solid #dddddd;}
+.pro-main2 .pro-mainright4-2 dl dt{position: relative;}
+.pro-main2 .pro-mainright4-2 dl dt img{width: 170px; height: 200px;position: absolute;top:10px;}
+.pro-main2 .pro-mainright4-2 dl dd {font-size: 12px;text-align: center;padding-top:210px }
+.pro-main2 .pro-mainright4-2 dl dd span{display:inline-block;color: red;font-size: 18px; padding-top:10px;}
+
+.pro-main2 .mainbottom2 ul {float: left;height: 230px;}
+.pro-main2 .mainbottom2 ul li{float: left; width: 194px; border: 1px solid #dddddd; border-right: none; height: 230px; border-top: none;position: relative;}
+.pro-main2 .mainbottom2 ul .last{width: 193px;}
+.pro-main2 .mainbottom2 ul li dl dt img{height: 170px; width:190px;position: absolute;top: 10px;}
+.pro-main2 .mainbottom2 ul li dl dd{font-size: 12px; text-align: center;position: absolute;bottom: 5px;}
+.pro-main2 .mainbottom2 ul li dl dd p{padding-left: 8px; padding-right: 8px; margin-bottom: 5px;}
+.pro-main2 .mainbottom2 ul li dl dd span {font-weight:900; color: red; font-size: 12px;  }
+.pro-main2 .mainbottom2 ul li dl dd em{text-decoration: line-through;font-size: 12px; }
+.pro-main2 .mainbottom2 ul li dl dd p a:hover{color: red;}

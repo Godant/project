@@ -1,0 +1,58 @@
+#wrap-footproduct{width: 100%; height: 530px; background: white;}
+#wrap-footproduct .footproduct{width: 1200px; height: 530px; margin: 0 auto;}
+#wrap-footproduct .footproduct h3{font-size: 24px;margin-top: 17px;border-bottom: 1px dashed #dddddd;  }
+#wrap-footproduct .footproduct ul{float: left; padding-top: 17px; width: 1200px;}
+#wrap-footproduct .footproduct ul li{float: left; margin-right: 12px;}
+#wrap-footproduct .footproduct ul .last{margin-right: 0;}
+
+#wrap-footlink{width: 100%; height: 230px; background: #f8f8f8;}
+#wrap-footlink .footlink {width: 1200px; height: 230px; margin: 0 auto;}
+#wrap-footlink .footlink .footlink-left dl{float: left;width: 162px; margin-right: 18px;}
+#wrap-footlink .footlink .footlink-left dl dt{font-size: 14px; line-height: 32px; padding: 12px 0; border-bottom: 1px solid #ccc;}
+#wrap-footlink .footlink .footlink-left dl dd li{margin-top: 10px; background: url(../images/listbg_03.jpg) no-repeat left center; padding-left: 20px;}
+#wrap-footlink .footlink .footlink-right{width: 408px; height: 230px; float: right; background: white;}
+#wrap-footlink .footlink .footlink-right dl{float: left;}
+#wrap-footlink .footlink .footlink-right .dl-1 {width: 265px; border-right: 1px solid #ccc; height: 230px;}
+#wrap-footlink .footlink .footlink-right .dl-1 dt{font-size: 14px; line-height: 32px; padding: 12px 0; border-bottom: 1px solid #ccc; margin:0 20px;}
+#wrap-footlink .footlink .footlink-right .dl-1 dd{margin-left: 20px; line-height: 20px; font-size: 12px;margin-top: 20px;}
+#wrap-footlink .footlink .footlink-right .dl-1 .dd-1{font-size: 25px; color: orange;}
+
+#wrap-footlink .footlink .footlink-right .dl-2 dt{font-size: 14px; line-height: 32px; padding: 12px 0; border-bottom: 1px solid #ccc; margin:0 20px;}
+#wrap-footlink .footlink .footlink-right .dl-2 {width: 138px;}
+#wrap-footlink .footlink .footlink-right .dl-2 img{width: 78px;height: 78px;padding: 10px 30px ;}
+#wrap-footlink .footlink .footlink-right .dl-2 dd{font-size: 14px; text-align: center;}
+
+#wrap-footer{width: 100%; height:246px; background: white;}
+#wrap-footer .footer {height: 246px; margin: 0 auto; width: 1200px;}
+#wrap-footer .footer .footer1{width: 1200px; height: 120px; border-bottom: 1px solid #ccc;}
+#wrap-footer .footer .footer1 a{display: block;float: left ;font-size: 12px;margin: 8px 8px;}
+#wrap-footer .footer .footer1 a:hover{color: red;}
+#wrap-footer .footer .footer2{height: 124px;}
+#wrap-footer .footer .footer2 p{text-align: center;}
+#wrap-footer .footer .footer2 p a { margin: 0 5px;}
+#wrap-footer .footer .footer2 .pp1{margin-top: 10px;}
+#wrap-footer .footer .footer2 .pp1 .acolor{color: red;}
+#wrap-footer .footer .footer2 .pp1 .last{float: right; margin-right: 20px;}
+#wrap-footer .footer .footer2 .pp1 a:hover{text-decoration: underline;}
+#wrap-footer .footer .footer2 .pp3{margin-top: 20px;}
+
+
+#lastright{width: 40px;position:fixed;top: 0; right: 0; background: black; height: 100%;z-index: 1000;}
+#lastright ul{margin-top: 260px;width: 40px;}
+#lastright ul li{width: 40px;position: relative;}
+#lastright ul li a{display:block;width: 40px;height: 40px; line-height: 40px;padding: 8px 8px 0px 8px; }
+#lastright ul li .closet{padding-left: 10px;}
+#lastright ul li .last img{display: block; padding-left: 3px;}
+#lastright ul li .last{color: white; padding-left: 12px; font-weight: 900;}
+#lastright ul li a:hover{background: red;}
+
+#lastright .list1 div{position: absolute;width: 80px; height: 47px;top: 0; left: 40px;border: 1px solid #ccc; border-radius:20px 0 0 20px;}
+#lastright .list1 div a{display:block;float:left; padding: 0; margin: 0; width: 80px; text-align: center;font-size: 12px; line-height: 47px;}
+#lastright .list1 div a:hover{ color: red; background: none;}
+
+#lastright .list5 div{position: absolute;width: 80px; height: 47px;top: 0; left: 40px;border: 1px solid #ccc; border-radius:20px 0 0 20px;}
+#lastright .list5 div span {display:block;float:left; padding: 0; margin: 0; width: 80px; text-align: center; font-size: 12px; line-height: 47px;}
+
+
+#lastright .list4 div{border: 1px solid #ccc; border-radius:20px 0 0 20px;position: absolute;top: 0; left: 40px;}
+#lastright .list4 div img{display:block; width: 80px;}
