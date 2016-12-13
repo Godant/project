@@ -1,0 +1,168 @@
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none; font-size: 12px; color: black;}
+ul li {list-style: none;}
+==> * { margin:0; padding:0;}
+
+
+#wrap-topper{width: 100%;height: 30px;background: #f8f8f8;}
+#wrap-topper .topper{width: 1200px;height: 30px;margin: 0 auto;}
+#wrap-topper .topper span{float: left;line-height: 30px;padding-left: 20px ;}
+#wrap-topper .topper .pul{float: right;}
+#wrap-topper .topper .pul li{z-index:100;float: left; padding: 9px 10px 9px 20px; background: url(../images/topperlist.jpg) right center no-repeat; position: relative;}
+#wrap-topper .topper .first{margin-right: 30px;}
+#wrap-topper .topper .last-1{margin-left: 20px; position: relative;}
+#wrap-topper .topper .last-1 img{position: absolute; right:60px;top: 10px;}
+#wrap-topper .topper .pul li ul{position: absolute; top: 30px; left: 0;display: none; }
+#wrap-topper .topper .pul li ul li{width: 60px; height: 15px;line-height: 15px; font-size: 12px; background-image: none;background: white;}
+#wrap-topper .topper .pul li:hover ul {display: block; }
+#wrap-topper .topper .pul li ul li:hover{background: #f3f3f3; color:#d4121b ;}
+#wrap-topper .topper .pul .car-list{width: 300px; height: 160px; background: white; position: absolute; left:-10px ;display: none;}
+#wrap-topper .topper .pul .car-list h3{font-size: 14px ; padding:10px;border-bottom: 2px solid #f3f3f3 ;}
+.topper .pul .car-list .listbg{position: absolute;width: 100%; bottom: 0; background: #f3f3f3; height: 70px;position: absolute;}
+.car-list .listbg .p1{float: right; padding:10px; font-size: 12px;}
+.car-list .listbg .p2 a{float: right; font-size: 14px; padding:5px;background: red; color: white; position: absolute; bottom: 10px; right: 10px; border-radius:5px;);}
+#wrap-topper .topper .pul .first:hover .car-list{display: block;}
+
+#wrap-topperimg{width: 100%;background: #f3f3f3;}
+#wrap-topperimg a{width: 1200px;display: block;margin: 0 auto;}
+
+#wrap-toppersearch{width: 100%; height: 155px;border-bottom: 2px solid #d4121b;}
+.toppersearch{width: 1200px; height: 155px; margin: 0 auto; position: relative;}
+.toppersearch .logo{float: left; margin-top: 20px; margin-left: 20px;} 
+.toppersearch .search-form{padding-top: 20px; margin-left: 270px;}
+.toppersearch .search-form .txt{float:left;width: 415px; height: 38px; border: 3px solid #d93600;}
+.toppersearch .search-form .btn{width: 83px; height: 44px; background: #d93600; border: 0; color: white; font-size: 14px;}
+.toppersearch .search-form p {display: inline-block; position: absolute; top: 70px; left: 280px;}
+.toppersearch .search-form p .a1{color:#d93600 ;}
+.toppersearch .search-form a:hover { color: #d93600 ;}
+.toppersearch .search-form .form-rightul{float:right; width: 270px; height: 44px;}
+.toppersearch .search-form .form-rightul a{ font-size: 14px; display:block;width:40px;float: left;  padding: 10px 0 10px 50px; }
+.toppersearch .search-form .form-rightul .a1{background: url(../images/car.jpg) left center no-repeat;}
+.toppersearch .search-form .form-rightul .a2{background: url(../images/friend.jpg) left center no-repeat;}
+.toppersearch .search-form .form-rightul .a3{background: url(../images/need.jpg) left center no-repeat;}
+.toppersearch .search-bottom{position: absolute; bottom: 0; }
+.toppersearch .search-bottom .all{width: 211px; height: 45px; background: #fe3c32;}
+.toppersearch .search-bottom .all a{display:inline-block;color: white; font-size: 14px; font-weight:bold;line-height: 45px;
+                                    padding-left: 30px;margin-left: 20px; background: url(../images/mianmenuall.jpg) left center no-repeat;}
+ .toppersearch .search-bottom .all span{float: right; margin-right: 30px; line-height:40px ;}                                   
+.toppersearch  .mainmenu{float: left; margin-left: 35px;}
+.toppersearch  .mainmenu li {float: left; padding-top: 55px;}
+.toppersearch  .mainmenu li  a{ padding: 0 20px; font-size: 14px; font-weight: bold;}
+.toppersearch  .mainmenu li  a:hover{color: #d93600;}
+.toppersearch  .mainmenu .first a{color: #d93600;}
+
+
+
+/*banner*/
+#wrap-banner{width: 100%; height: 420px;}
+#wrap-banner .banner {width: 1200px;overflow: hidden;margin: 0 auto; position: relative;}
+#wrap-banner .banner .banner-left{width: 211px;height: 420px; background: #2c2c2c;float: left;}
+#wrap-banner .banner .banner-left li {padding: 18.7px 0; padding-left: 50px;  font-size: 14px;position: relative; }
+#wrap-banner .banner .banner-left li:hover{background: black;}
+#wrap-banner .banner .banner-left li a{color: white;font-weight: bold;}
+#wrap-banner .banner .banner-left li img{position: absolute; left: 20px;}
+
+#wrap-banner .banner .banner-left .phone .phone-list1{height:200px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top: 0;display: none;}
+#wrap-banner .banner .banner-left .phone .phone-list1 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .phone .phone-list1 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .phone .phone-list1 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .phone .phone-list1 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .phone .phone-list1 a:hover {color: red;}
+#wrap-banner .banner .banner-left .phone:hover .phone-list1{display: block;}
+
+#wrap-banner .banner .banner-left .computer .computer-list2{height:190px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top: 0;display: none;}
+#wrap-banner .banner .banner-left .computer  .computer-list2 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .computer .computer-list2 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .computer .computer-list2 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .computer .computer-list2 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .computer .computer-list2 a:hover {color: red;}
+#wrap-banner .banner .banner-left .computer:hover .computer-list2{display: block;}
+
+#wrap-banner .banner .banner-left .apple .apple-list3{height:270px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top: 0; display: none;}
+#wrap-banner .banner .banner-left .apple  .apple-list3 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .apple .apple-list3 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .apple .apple-list3 dd{width: 285px; float: left;padding-top: 10px; padding-left:30px;}
+#wrap-banner .banner .banner-left .apple .apple-list3 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .apple .apple-list3 a:hover {color: red;}
+#wrap-banner .banner .banner-left .apple:hover .apple-list3{display: block;}
+
+#wrap-banner .banner .banner-left .clothes .clothes-list4{height:210px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top: 0; display: none;}
+#wrap-banner .banner .banner-left .clothes  .clothes-list4 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .clothes .clothes-list4 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .clothes .clothes-list4 dd{width: 285px; float: left;padding-top: 10px; padding-left:30px;}
+#wrap-banner .banner .banner-left .clothes .clothes-list4 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .clothes .clothes-list4 a:hover {color: red;}
+#wrap-banner .banner .banner-left .clothes:hover .clothes-list4{display: block;}
+
+#wrap-banner .banner .banner-left .baby .baby-list5{height:210px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top: -30px; display: none;}
+#wrap-banner .banner .banner-left .baby  .baby-list5 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .baby .baby-list5 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .baby .baby-list5 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .baby .baby-list5 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .baby .baby-list5 a:hover {color: red;}
+#wrap-banner .banner .banner-left .baby:hover .baby-list5{display: block;}
+
+#wrap-banner .banner .banner-left .coffee .cofee-list6{height:180px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top:-60px; display: none ;}
+#wrap-banner .banner .banner-left .coffee  .cofee-list6 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .coffee .cofee-list6 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .coffee .cofee-list6 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .coffee .cofee-list6 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .coffee .cofee-list6 a:hover {color: red;}
+#wrap-banner .banner .banner-left .coffee:hover .cofee-list6{display: block;}
+
+#wrap-banner .banner .banner-left .skin .skin-list7{height:150px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top:-60px; display: none ;}
+#wrap-banner .banner .banner-left .skin  .skin-list7 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .skin .skin-list7 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .skin .skin-list7 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .skin .skin-list7 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .skin .skin-list7 a:hover {color: red;}
+#wrap-banner .banner .banner-left .skin:hover .skin-list7{display: block;}
+
+#wrap-banner .banner .banner-left .home .home-list8{height:140px;width:762px;background:white;position: absolute;z-index: 100; left: 211px;top:-90px; display: none ;}
+#wrap-banner .banner .banner-left .home  .home-list8 h3 a{display:block;margin-top: 20px; padding-left:20px; margin-left: 20px; background: url(../images/h3bg.png) no-repeat left center; color: black;font-size: 16px;}
+#wrap-banner .banner .banner-left .home .home-list8 dt a{float: left; padding-top: 20px; font-size: 12px; font-weight: bold; padding-left: 20px; color: black;}
+#wrap-banner .banner .banner-left .home .home-list8 dd{width: 285px; float: left;padding-top: 10px; padding-left:20px;}
+#wrap-banner .banner .banner-left .home .home-list8 dd a{ display:inline-block;color: black; font-weight: normal; padding: 0px 10px; border-left: 1px solid #ccc;margin-top: 10px; }
+#wrap-banner .banner .banner-left .home .home-list8 a:hover {color: red;}
+#wrap-banner .banner .banner-left .home:hover .home-list8{display: block;}
+ 
+#wrap-banner .banner .banner-center{float: left; width:760px ;height: 420px; position: relative;}
+#wrap-banner .banner .banner-center img{width:762px ; height: 420px;position: absolute; left: 0; top: 0;}
+
+#wrap-banner .banner  .center-list{z-index: 80; position: absolute;bottom: 0px; left: 210px;min-width:762px; height: 40px;}
+#wrap-banner .banner  .center-list li{float: left; height: 40px; line-height: 40px; color: white;background: black; opacity:0.3;
+                                       font-size: 12px;padding:0 25px; margin-left: 1px;  }
+
+#wrap-banner .banner .prev,.next{width: 30px; height: 50px; background: black; line-height: 50px;position: absolute;top:160px;left:250px;
+                                   opacity: 0.5; color: white; font-size: 30px;text-align: center;display: none; }
+#wrap-banner .banner .next{top:160px;left: 900px;}
+
+#wrap-banner .banner .banner-right{width: 226px;height: 419px; border:1px solid #e7e7e7 ; float: right;background: white; }
+#wrap-banner .banner .banner-right img{float:left;margin-left: 10px; margin-top: 10px;}
+#wrap-banner .banner .banner-right dl{overflow: hidden;}
+#wrap-banner .banner .banner-right dd{float: left; font-size:12px;}
+#wrap-banner .banner .banner-right dd p{margin-top: 15px; margin-left: 10px; }
+#wrap-banner .banner .banner-right .Login{clear: both;overflow: hidden; margin-top: 5px;}
+#wrap-banner .banner .banner-right .Login a{display: block;float: left; font-size: 14px;padding: 14px 42px; border: 1px solid #e7e7e7; border-top: 1px dashed  #e7e7e7;border-right: none;}
+#wrap-banner .banner .banner-right .Login a:hover{color: red;}
+#wrap-banner .banner .banner-right ul{overflow: hidden;}
+#wrap-banner .banner .banner-right ul li {margin-top: 15px; margin-left: 10px;width: 200px; height: 20px; overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#wrap-banner .banner .banner-right .right-center  {position: relative; overflow: hidden;}
+#wrap-banner .banner .banner-right .right-center a{display:block;overflow: hidden; float: left;border: 1px solid #cdcdcd; border-right: none; margin-top: 20px;}
+#wrap-banner .banner .banner-right .right-center a:hover div{color: red;border: 1px solid red;width:72px ; height: 39px;}
+#wrap-banner .banner .banner-right .right-center div{ float: left;width: 74px;  height: 41px; text-align: center; padding-top: 50px; }
+#wrap-banner .banner .banner-right .right-center .last{ border-right: 1px solid #cdcdcd;}
+#wrap-banner .banner .banner-right .right-center  img{position: absolute;}
+#wrap-banner .banner .banner-right .right-center .img1{top: 30px; left: 18px;}
+#wrap-banner .banner .banner-right .right-center .img2{top: 30px; left: 92px;}
+#wrap-banner .banner .banner-right .right-center .img3{top: 30px; left: 166px;}
+#wrap-banner .banner .banner-right .htc10pic img{display:block;padding-top: 10px;}

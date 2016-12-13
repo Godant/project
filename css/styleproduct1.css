@@ -1,0 +1,39 @@
+#wrap-pro-first{width: 100%; background: #f8f8f8;overflow: hidden; padding-bottom: 20px;}
+#wrap-pro-first .pro-first {width: 1200px; overflow: hidden;;margin: 0 auto; background:white ;}
+.pro-first .pro-first-top{height: 190;padding-top: 10px;overflow: hidden;}
+.pro-first .pro-first-top dl{width: 202px; float: left; overflow: hidden;}
+.pro-first .pro-first-top dl dt{font-size: 12px; padding-top: 14px; text-align: center;}
+.pro-first .pro-first-top dl img{padding-left: 45px; padding-top: 16px;}
+.pro-first .pro-first-top ul{float: left; overflow: hidden; width: 997px;}
+.pro-first .pro-first-top ul li{float: left; border-left: 1px solid #ccc;}
+.pro-first .pro-first-top ul .last{border-right: 1px solid #ccc;}
+
+.pro-first .pro-first-centerleft{overflow: hidden; width: 340px; float: left;}
+.pro-first .pro-first-centerleft .centerleft-1{ float: left;}
+.pro-first .pro-first-centerleft .centerleft-1 h3{padding-top:35px;margin-left: 40px;padding-bottom: 13px;width: 280px; border-bottom: 1px dashed #C0C0C0 ;font-size: 24px;}
+.pro-first .pro-first-centerleft .centerleft-1 ul{float: left; margin-left: 40px;}
+.pro-first .pro-first-centerleft .centerleft-1 ul li{margin-top: 10px; padding:2px 50px;}
+.pro-first .pro-first-centerleft .centerleft-1 ul .oLi1{background: url(../images/cutprice.png) no-repeat left bottom;}
+.pro-first .pro-first-centerleft .centerleft-1 ul .oLi2{background: url(../images/special.png) no-repeat left bottom;}
+.pro-first .pro-first-centerleft .centerleft-1 ul li span{color: #9b9b9b;}
+.pro-first .pro-first-centerleft .centerleft-1 em{font-style: normal;}
+.pro-first .pro-first-centerleft .centerleft-1 ul li a:hover em{color: red;}
+
+.pro-first .pro-first-centerleft .centerleft-2{float: left; padding-bottom: 10px;}
+.pro-first .pro-first-centerleft .centerleft-2 h4{margin-top: 22px;margin-left: 40px;padding-bottom: 13px;width: 280px; border-bottom: 1px dashed #C0C0C0 ;font-size: 24px;}
+.pro-first .pro-first-centerleft .centerleft-2 p{font-size: 12px;padding-top: 20px; margin-left:37px ;}
+.pro-first .pro-first-centerleft .centerleft-2 a{font-style: normal;color: #555555;}
+.pro-first .pro-first-centerleft .centerleft-2 a:hover{color: red;}
+
+.pro-first .pro-first-centerright .centerright-1 {float: left;}
+.pro-first .pro-first-centerright .centerright-1 ul{float: left; margin-top: 20px; margin-left:20px ;}
+.pro-first .pro-first-centerright .centerright-1 ul li{float: left; margin-left: 10px;}
+
+.pro-first .pro-first-centerright .centerright-2{float: left; width: 860px; overflow: hidden;}
+.pro-first .pro-first-centerright .centerright-2 ul{float: left;margin-top:30px ; margin-left: 30px; }
+.pro-first .pro-first-centerright .centerright-2 ul li{float: left; margin-top: 10px;}
+
+#wrap-probanner{width: 100%; height: 70px; background:#f8f8f8;padding-bottom: 15px;}
+#wrap-probanner .probanner{width: 1200px; height: 70px; margin: 0 auto;}
+
+
